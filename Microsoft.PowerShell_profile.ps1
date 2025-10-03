@@ -19,10 +19,13 @@ function ..   { Set-Location .. }
 function ...  { Set-Location ../.. }
 function .... { Set-Location ../../.. }
 
-# Atajos de directorios comunes (ejemplo)
+# Atajos de directorios comunes
 function docs { Set-Location ~/Documents }
 function dsk  { Set-Location ~/Desktop }
 function dl   { Set-Location ~/Downloads }
+function pr   { Set-Location D:\Programacion}
+function tr   { Set-Location D:\Programacion\trescode}
+
 
 # Limpieza de pantalla
 function cls  { Clear-Host }
